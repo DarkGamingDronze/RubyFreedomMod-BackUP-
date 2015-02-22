@@ -1,3 +1,4 @@
 # **RubyFreedomMod** #
 
 The RubyFreedomMod is currently a fork from **FreedomOPMod**, for Bukkit server's who want a All-OP server. You can see the RubyFreedom Fourms at http://rubyfreedom.boards.net/ And you can see the TFM Github here. http://github.com/TotalFreedom/totalfreedommod If you have any problems ask our devs and our helpers. Our Dev support is here, http://to.fop.us.to/devsupport. Feel free to commit. Also, there won't be any public distributed releases just yet for the DaPancake & ThePheonixblader RBFM. Please watch the RubyFreedom Boards for more info.
+<script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"></script><a href="http://www.dmca.com/Protection/Status.aspx?ID=e684cf48-2583-4418-ad22-b88d8eedabef" title="DMCA.com Protection Program" class="dmca-badge"> <img src ="//images.dmca.com/Badges/dmca_protected_sml_120m.png?ID=e684cf48-2583-4418-ad22-b88d8eedabef"  alt="DMCA.com Protection Status" /></a>
