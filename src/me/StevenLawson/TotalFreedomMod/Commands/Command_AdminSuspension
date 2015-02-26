@@ -4,82 +4,27 @@ package me.StevenLawson.TotalFreedomMod.Commands;
 
 
 
-
-
 import me.StevenLawson.TotalFreedomMod.TFM_AdminList;
-
-
-
 import me.StevenLawson.TotalFreedomMod.TFM_Ban;
-
-
-
 import me.StevenLawson.TotalFreedomMod.TFM_BanManager;
-
-
-
 import me.StevenLawson.TotalFreedomMod.TFM_PlayerList;
-
-
-
 import me.StevenLawson.TotalFreedomMod.TFM_Util;
-
-
-
 import me.StevenLawson.TotalFreedomMod.TotalFreedomMod;
-
-
-
 import org.bukkit.ChatColor;
-
-
-
 import org.bukkit.GameMode;
-
-
-
 import org.bukkit.command.Command;
-
-
-
 import org.bukkit.command.CommandSender;
-
-
-
 import org.bukkit.entity.Player;
-
-
-
 import org.bukkit.scheduler.BukkitRunnable;
-
-
-
 import org.bukkit.util.Vector;
 
 
 
 
-
-
-
 @commandpermissions(level = AdminLevel.OWNER, source = SourceType.BOTH)
-
-
-
 @commandparameters(description = "For the bad Superadmins", usage = "/<command> <playername>")
-
-
-
 public class Command_adminsuspension extends TFM_Command
-
-
-
 {
-
-
-
-
-
 
 
 @override
