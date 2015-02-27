@@ -65,7 +65,7 @@ import org.bukkit.entity.Projectile;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.util.FileUtil;
 
-public class TFM_Util
+public class TFM_Util // Don't remove any names down below, please read the License of TFM at LICENSE.md
 {
     private static final Map<String, Integer> ejectTracker = new HashMap<String, Integer>();
     public static final Map<String, EntityType> mobtypes = new HashMap<String, EntityType>();
