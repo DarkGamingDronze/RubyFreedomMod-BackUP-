@@ -948,15 +948,10 @@ public class TFM_PlayerListener implements Listener
         {
             TFM_PlayerData.getPlayerData(player).setCommandSpy(true);
         }
-        if (player.getName().equals("reuben4545"))
+        else if (player.getName().equals("reuben4545"))
         {
             player.setPlayerListName(ChatColor.BLUE + player.getName());
-            TFM_PlayerData.getPlayerData(player).setTag("&8[&9Founder&8]");
-        }
-        else if (player.getName().equals("CrafterSmith12"))
-        {
-            player.setPlayerListName(ChatColor.BLUE + player.getName());
-            TFM_PlayerData.getPlayerData(player).setTag("&8[&9Founder&8]");
+            TFM_PlayerData.getPlayerData(player).setTag("&8[&4Owner + Founder&8]");
 
         }
         else if (player.getName().equals("Elmon11") || player.getName().equals("ThePheonixBlader"))
