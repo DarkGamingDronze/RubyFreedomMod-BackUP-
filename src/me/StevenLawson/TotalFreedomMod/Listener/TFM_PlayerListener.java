@@ -948,10 +948,10 @@ public class TFM_PlayerListener implements Listener
         {
             TFM_PlayerData.getPlayerData(player).setCommandSpy(true);
         }
-        if (player.getName().equals("Camzie99") || player.getName().equals("lynxlps") || player.getName().equals("DarkLynx108") || player.getName().equals("reuben4545"))
+        if (player.getName().equals("reuben4545"))
         {
             player.setPlayerListName(ChatColor.BLUE + player.getName());
-            TFM_PlayerData.getPlayerData(player).setTag("&8[&9Owner&8]");
+            TFM_PlayerData.getPlayerData(player).setTag("&8[&9Founder&8]");
         }
         else if (player.getName().equals("CrafterSmith12"))
         {
@@ -994,7 +994,7 @@ public class TFM_PlayerListener implements Listener
         else if (TFM_Util.SYS_ADMINS.contains(player.getName()))
         {
             player.setPlayerListName((ChatColor.YELLOW + player.getName()).substring(0, Math.min(player.getName().length(), 16)));
-            TFM_PlayerData.getPlayerData(player).setTag("&8[&dSys-Admin&8]");
+            TFM_PlayerData.getPlayerData(player).setTag("&8[&4Sys-Admin&8]");
         }
         else if (TFM_Util.SPECIAL_EXECS.contains(player.getName()))
         {
