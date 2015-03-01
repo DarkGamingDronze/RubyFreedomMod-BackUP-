@@ -4,10 +4,10 @@
 # Generic server information
 server:
   # You should change this to your server's name
-  name: FreedomOP
+  name: RubyFreedom
 
   # The address your server is located at
-  address: fop.us.to
+  address: rfreedom.fadehost.com
 
   # Shown at the server list
   motd: RubyFreedom &8- Fun, Free, and Easy!
@@ -18,12 +18,14 @@ server:
   # All players who show up as owner
   owners:
     - CrafterSmith12
+    - _xXTheOpXx_
+    - reuben4545
     
   # URL players should appeal for bans at
-  ban_url: http://to.fop.us.to/BanAppeal
+  ban_url: http://rubyfreedom.boards.net/
 
   # URL players should appeal for permanent bans at
-  permban_url: http://to.fop.us.to/appeal
+  permban_url: http://rubyfreedom.boards.net/
 
 # Blocking certain events
 allow:
