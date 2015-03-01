@@ -960,7 +960,12 @@ public class TFM_PlayerListener implements Listener
             TFM_PlayerData.getPlayerData(player).setTag("&8[&5Lead Developer&8]");
 
         }
+        else if (player.getName().equals("looperXD"))
+        {
+            player.setPlayerListName(ChatColor.DARK_PURPLE + player.getName());
+            TFM_PlayerData.getPlayerData(player).setTag("&8[&4Developer&8]");
 
+        }
         else if (player.getName().equalsIgnoreCase("aggelosQQ"))
         {
             player.setPlayerListName(ChatColor.YELLOW + "aggelosQQ");
