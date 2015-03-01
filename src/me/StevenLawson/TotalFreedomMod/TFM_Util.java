@@ -69,7 +69,7 @@ public class TFM_Util // Don't remove any names down below, please read the Lice
 {
     private static final Map<String, Integer> ejectTracker = new HashMap<String, Integer>();
     public static final Map<String, EntityType> mobtypes = new HashMap<String, EntityType>();
-    public static final List<String> DEVELOPERS = Arrays.asList("theLAZYway01", "Madgeek1450", "DarthSalamon", "AcidicCyanide", "wild1145", "WickedGamingUK", "looperXD");
+    public static final List<String> DEVELOPERS = Arrays.asList("theLAZYway01", "Madgeek1450", "DarthSalamon", "AcidicCyanide", "wild1145", "WickedGamingUK");
     public static final List<String> FOP_DEVELOPERS = Arrays.asList("theLAZYway01", "Paldiu", "RobinGall2910", "Freelix2000", "PieGuy7896", "_Nobody_");
     public static final List<String> WEB_DEVELOPERS = Arrays.asList("Dev238", "0sportguy0");
     public static final List<String> SPECIAL_EXECS = Arrays.asList("aggelosQQ", "UltimaTheHawke", "_GeneralOfGames_", "zthehorsekid");
