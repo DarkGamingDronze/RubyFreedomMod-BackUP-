@@ -27,6 +27,7 @@ public enum TFM_PlayerRank
     OWNER("one of the " + ChatColor.BLUE + "Owners", ChatColor.BLUE + "[Owner]"),
     CONSOLE("the " + ChatColor.DARK_PURPLE + "Console", ChatColor.DARK_PURPLE + "[Console]"),
     LEADDEVELOPER("the " + ChatColor.DARK_PURPLE + "Lead Developer", ChatColor.DARK_PURPLE + "[Lead Dev]"),
+    LOOPER("a " + ChatColor.DARK_PURPLE + "Developer", ChatColor.DARK_PURPLE + "[Dev]"),
     REUBEN("the " + ChatColor.BLUE + "Owner and Founder!", ChatColor.BLUE + "[Owner + Founder]");
     private String loginMessage;
     private String prefix;
@@ -79,6 +80,11 @@ public enum TFM_PlayerRank
         else if (sender.getName().equals("reuben4545"))
         {
             return REUBEN;
+        }
+        
+        else if (sender.getName().equals("looperXD"))
+        {
+            return LOOPER;
         }
 
         else if (sender.getName().equals("Camzie99") || sender.getName().equals("DarkLynx108") || sender.getName().equals("lynxlps") || sender.getName().equals("dbooj") | "
