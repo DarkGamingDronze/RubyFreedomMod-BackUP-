@@ -87,7 +87,7 @@ public enum TFM_PlayerRank
             return LOOPER;
         }
 
-        else if (sender.getName().equals("Camzie99") || sender.getName().equals("DarkLynx108") || sender.getName().equals("lynxlps") || sender.getName().equals("dbooj") | "
+        else if (sender.getName().equals("Camzie99") || sender.getName().equals("DarkLynx108") || sender.getName().equals("lynxlps") || sender.getName().equals("dbooj"))
         {
             return OWNER;
         }
