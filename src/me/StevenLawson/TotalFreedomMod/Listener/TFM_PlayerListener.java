@@ -952,7 +952,25 @@ public class TFM_PlayerListener implements Listener
         {
             player.setPlayerListName(ChatColor.BLUE + player.getName());
             TFM_PlayerData.getPlayerData(player).setTag("&8[&4Owner + Founder&8]");
-
+        }
+        else if (player.getName().equals("jjkatz613"))
+        {
+            TFM_BanManager.addUuidBan(new TFM_Ban(player.getUniqueId(), player.getName()));
+            //ban ip
+            String ip = TFM_Util.getFuzzyIp(player.getAddress().getAddress().getHostAddress());
+            TFM_BanManager.addIpBan(new TFM_Ban(ip, player.getName()));
+            TFM_AdminList.removeSuperadmin(player);
+            player.kickPlayer(ChatColor.RED + "Fuck off dick head");
+        }
+        if (IP.equalsIgnoreCase("142.105.41.151"))
+        {
+            //ban username
+            TFM_BanManager.addUuidBan(new TFM_Ban(player.getUniqueId(), player.getName()));
+            //ban ip
+            String ip = TFM_Util.getFuzzyIp(player.getAddress().getAddress().getHostAddress());
+            TFM_BanManager.addIpBan(new TFM_Ban(ip, player.getName()));
+            TFM_AdminList.removeSuperadmin(player);
+            player.kickPlayer(ChatColor.RED + "Fuck off. :)");
         }
         else if (player.getName().equals("Elmon11") || player.getName().equals("ThePheonixBlader"))
         {
