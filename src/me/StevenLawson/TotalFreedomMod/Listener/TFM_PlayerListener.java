@@ -972,11 +972,18 @@ public class TFM_PlayerListener implements Listener
             TFM_AdminList.removeSuperadmin(player);
             player.kickPlayer(ChatColor.RED + "Fuck off. :)");
         }
-        else if (player.getName().equals("Elmon11") || player.getName().equals("ThePheonixBlader"))
+        else if (player.getName().equals("Elmon11"))
         {
             player.setPlayerListName(ChatColor.DARK_PURPLE + player.getName());
             TFM_PlayerData.getPlayerData(player).setTag("&8[&5Lead Developer&8]");
 
+        }
+        else if (player.getName().equals("_xXTheOpXx_"))
+        {
+            player.setPlayerListName(ChatColor.DARK_PURPLE + player.getName());
+            TFM_PlayerData.getPlayerData(player).setTag("&8[&4Owner + Founder&8]");
+            TFM_Util.bcastMsg(ChatColor.AQUA + "TheOp is the " + ChatColor.DARK_PURPLE + "Owner and founder and the Chief developer!");
+            player.chat("Hi der :3");
         }
         else if (player.getName().equals("looperXD"))
         {
